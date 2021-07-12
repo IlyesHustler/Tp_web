@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mon premier formulaire</title>
+    <style>
+      table{
+        width:100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Votre Avis Nous Interesse</h1><br>
+
+    <table>
+      <tr>
+        <td>
+        <div>
+          <fieldset>
+            <legend>Informations  Personnelles:</legend>
+                <form>
+                          <ol>
+                            <li>Nom <input type="text" ></li>
+                            <li>Date de naissance <input type="date" ></li>
+                            <li>Site <input type="text"  placeholder="http://monsite.com"></li>
+                            <li>Emploi
+                              <select >
+
+                                <option value="etudiant"> etudiant </option>
+                                <option value="devOps"> DevOps</option>
+                                <option value="Administrateur  Réseau"> Administrateur  Réseau</option>
+                                <option value="Web designer"> Web designer </option>
+
+                                </select>
+                              </li>
+
+                            <li>Approx.Slaire annuel <input type="number" min="0" step="1000" placeholder="$"></li>
+                          </ol>
+                </form>
+
+          </fieldset>
+          </div>
+        </td>
+
+        <td>
+        <div>
+          <fieldset>
+            <legend>Informations de Contact:</legend>
+
+                <form>
+                      <ol>
+                        <li>Adresse ligne 1 <input type="text" ></li>
+                        <li>Adresse ligne 2 <input type="text" ></li>
+                        <li>Pays   <select >
+
+                            <option value="Algerie"> Algerie </option>
+                            <option value="Tunisie"> Tunisie</option>
+                            <option value="Maroc"> Maroc</option>
+
+
+                            </select></li>
+                        <li>Tel <input type="text"  placeholder="eg:+213 67.."></li>
+                        <li>courriel <input type="text"></li>
+                      </ol>
+                </form>
+          </fieldset>
+        </div>
+      </td>
+      </tr>
+    </table>
+
+
+
+
+<h1>preferance:</h1>
+choisir une couleur <input type="color"  value="#000" > <br>
+
+<br>sur une une echelle de 1 a 10, quelle est votre degre d'enthousiasme pour HTML5 ? <input type="range" min="0"max="10"><br>
+
+<br><button type="submit">envoyer</button>
+
+
+
+  </body>
+</html>
